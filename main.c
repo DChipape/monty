@@ -38,7 +38,8 @@ int find_opcode(stack_t **stack, char *opcode, int line_number)
 * @argc: count of the command line arguments
 * @argv: command arguments into an array line
 *
-* Return: EXIT_SUCCESS if no errors occur, otherwise EXIT_FAILURE
+* Return: EXIT_SUCCESS if no errors occur,
+* otherwise EXIT_FAILURE
 **/
 
 int main(__attribute__((unused)) int argc, char const *argv[])
